@@ -23,7 +23,7 @@ const UserSearch = () => {
     <div className="grid grid-cols-1 xl:grid-cols-2 lg:grid-cols-2 md:grid-cols-2 mb-8 gap-8">
       <div>
         <form onSubmit={handleSubmit}>
-          <div className="form-control mb-96">
+          <div className="form-control">
             <div className="input-group">
               <input
                 type="text"
